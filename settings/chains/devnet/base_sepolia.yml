@@ -1,0 +1,22 @@
+network_name: Base Sepolia
+chain_id: 84532
+is_testnet: True
+rollup_type: op_stack
+dao:
+  emergency_admin: "0x000000084eaa3Ffc63417Ef6964f00016Ac154ec"
+  ownership_admin: "0x000000084eaa3Ffc63417Ef6964f00016Ac154ec"
+  parameter_admin: "0x000000084eaa3Ffc63417Ef6964f00016Ac154ec"
+explorer_base_url: https://sepolia.basescan.org
+
+# Frontend-specific inputs
+layer: 2
+logo_url: https://raw.githubusercontent.com/curvefi/curve-assets/refs/heads/main/chains/base.png
+native_currency_symbol: ETH
+native_currency_coingecko_id: ethereum
+public_rpc_url: https://sepolia.base.org
+wrapped_native_token: "0x78298d544849eC9Eefb200FC9c1054F9d342Fbd9"
+reference_token_addresses:
+  usdc: "0x6f3Dfa01CE9608be3385E262B26825F5D2e78FeC"
+  usdt: "0x0000000000000000000000000000000000000000"
+  weth: "0x78298d544849eC9Eefb200FC9c1054F9d342Fbd9"
+multicall3: "0xcA11bde05977b3631167028862bE2a173976CA11"
